@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2022.2.2">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1536, 864]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="primeLDT" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+  </Settings>
+  <Routines>
+    <Routine name="Instructions">
+      <TextComponent name="inst">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="inst" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="**INSTRUCTIONS**&amp;#10;&amp;#10;During this experiment stimuli will be flashed on the screen very quickly, &amp;#10;after this a word or a non-word will appear. You need to decide, as quickly &amp;#10;as possible, if those words are real or not. &amp;#10;&amp;#10;If you think the word is real, Press A&amp;#10;&amp;#10;If you think the word is not real, i.e. a non-word, Press L&amp;#10;&amp;#10;For example, if you see the word BLUEBERRY, press A. &amp;#10;If you see a non-word such as FROMTPS, press L. &amp;#10;&amp;#10;Press SPACE to begin " valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_2" valType="code" updates="None" name="name"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="End">
+      <TextComponent name="text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.09" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="You have reached the end of the experiment. &amp;#10;Thank you for your time and response. " valType="str" updates="constant" name="text"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="confidentiality">
+      <TextComponent name="text_15">
+        <Param val="white" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="text_15" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="**CONFIDENTIALITY**&amp;#10;&amp;#10;All information you provide is considered confidential. As such, your name will not be included or associated, in any way, with the data collected in the study. Furthermore, because our interest is in the average responses of the entire group of participants, you will not be identified individually in any way in written reports of this research. Information collected during this study will be indexed using anonymous study IDs only and will be stored on password-protected computers. &amp;#10;&amp;#10;Press SPACE to continue" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_9">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_9" valType="code" updates="None" name="name"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="consent">
+      <TextComponent name="text_1">
+        <Param val="white" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="text_1" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="**WELCOME**&amp;#10;&amp;#10;Thank you for taking the time to participate in this experiment regarding the nature of word recognition in English.&amp;#10;&amp;#10;Before beginning the experiment, you will first be provided with some information about the experiment and your rights as a participant.&amp;#10;&amp;#10;Make sure to read each page carefully. &amp;#10;&amp;#10;To go to the next page press SPACE" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_1">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_1" valType="code" updates="None" name="name"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="consentForm">
+      <CodeComponent name="code_2">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="theseKeys=&quot;&quot;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Both" valType="str" updates="None" name="Code Type"/>
+        <Param val="i=0&amp;#10;n = len(theseKeys)&amp;#10;&amp;#10;while i &lt; n:&amp;#10;&amp;#10;    if theseKeys[i] == 'return':&amp;#10;        repeatConsent = True&amp;#10;        continueRoutine = False&amp;#10;        break&amp;#10;    &amp;#10;    elif theseKeys[i] == 'space':&amp;#10;        repeatConsent = False&amp;#10;        continueRoutine = False &amp;#10;        break " valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="text_18">
+        <Param val="white" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="text_18" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="**INFORMED CONSENT**&amp;#10;&amp;#10;I agree to participate in the study described above. I have made this decision based on the information I have read in the Information-Consent Letter. I understand that I may contact the experimenters in order to receive additional details about the study and understand that I may ask questions in the future&amp;#10;&amp;#10;I understand that I can withdraw this consent at any time&amp;#10;&amp;#10;&amp;#10;Press SPACE to indicate your informed consent and begin the experiment&amp;#10;&amp;#10;Press RETURN/ENTER to read through the experiment information again" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_12">
+        <Param val="" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_12" valType="code" updates="None" name="name"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="voluntaryPart">
+      <TextComponent name="text_16">
+        <Param val="white" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.07" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="text_16" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="**VOLUNTARY PARTICIPATION** &amp;#10;&amp;#10;Your participation in this research is completely voluntary, meaning that you can withdraw at anytime without penalty. Withdrawing from this experiment is simple, you only need to press the ESC button to exit the experiment and navigate away from the page. Incomplete trial data from the experiment will be deleted and your identity will be protected. If you choose to withdraw, you may return to the webpage at a future date and attempt the experiment again.&amp;#10;&amp;#10;Compensation&amp;#10;Participants will participate in this study on a volunteer basis and will not receive monetary compensation for their involvement in the study.&amp;#10;&amp;#10;&amp;#10;press SPACE to continue" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_10">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_10" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="whatsInvolved">
+      <TextComponent name="text_2">
+        <Param val="white" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="**WHAT IS INVOLVED** &amp;#10;&amp;#10;As a participant, you will be asked to complete 180 trials. Each trial will consist of the presentation of a word and your response to that word. This may feel monotonous or boring. If you do not feel comfortable continuing with the experiment, you are free to exit the program and withdraw from the experiment. If you choose not to complete the experiment, all of your data will be deleted by the experimenter.&amp;#10;&amp;#10;&amp;#10;Press SPACE to continue" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_02">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_02" valType="code" updates="None" name="name"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="repeater">
+      <CodeComponent name="code_4">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="repeatConsent=True " valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if repeatConsent==True:&amp;#10;    nRepsConsent = 1&amp;#10;&amp;#10;if repeatConsent==False:&amp;#10;    nRepsConsent = 0" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_4" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="risksBenefits">
+      <TextComponent name="text_14">
+        <Param val="white" valType="str" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.07" valType="code" updates="constant" name="letterHeight"/>
+        <Param val="text_14" valType="code" updates="None" name="name"/>
+        <Param val="1" valType="code" updates="constant" name="opacity"/>
+        <Param val="0" valType="code" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="**POTENTIAL RISKS AND BENEFITS** &amp;#10;&amp;#10;There are no known or anticipated risks associated with participation in the research. Possible benefits of participation include hands-on experience in the experiment process and increased knowledge of psycholinguistic research techniques and their development. Once you have completed all trials, you will be able to read about the rational and expected results of this experiment.&amp;#10;&amp;#10;&amp;#10;Press SPACE to continue" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_8">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_8" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="trial">
+      <PolygonComponent name="polygon">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="polygon" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(10, 10)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <CodeComponent name="code">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="&amp;#10;&amp;#10;&amp;#10;#randomize the seed&amp;#10;#random.seed()&amp;#10;&amp;#10;#stimuls file&amp;#10;#infile = 'D: AU/PSY310D:/AU/PSY310/Lexical Task/stim.xls'&amp;#10;&amp;#10;#num of study items&amp;#10;#num_study=180&amp;#10;&amp;#10;#num of test items&amp;#10;#num_test=180&amp;#10;&amp;#10;#total number of items&amp;#10;#num_items=180&amp;#10;&amp;#10;&amp;#10;#if loop.thisN == 0: # only on the first trial&amp;#10;#    jitters = [0.05,0.1, 0.07] # create the list&amp;#10;#    shuffle(jitters) # randomise its order&amp;#10;#    &amp;#10;#current_jitter = jitters.pop() # extract one entry on each trial&amp;#10;#thisExp.addData('jitter', current_jitter) # record in the data for this trial&amp;#10;&amp;#10;#make a list of the displaytypes&amp;#10;#prime_disp=['relatedPrime','unrelatedPrime']*180&amp;#10;#randomise its order&amp;#10;# shuffle(prime_disp) " valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="import * as random from 'random';&amp;#10;var current_jitter, jitters;&amp;#10;if ((loop.thisN === 0)) {&amp;#10;    jitters = ([0.05, 0.07, 0.1] * 180);&amp;#10;    util.shuffle(jitters);&amp;#10;}&amp;#10;current_jitter = jitters.pop();&amp;#10;psychoJS.experiment.addData(&quot;prime_dur&quot;, current_jitter);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="import random   &amp;#10;&amp;#10;if loop.thisN == 0: # only on the first trial&amp;#10;    jitters = [0.05, 0.07, 0.1]*180 # create the list&amp;#10;    shuffle(jitters) # randomise its order&amp;#10;&amp;#10;current_jitter = jitters.pop() # extract one entry on each trial&amp;#10;thisExp.addData('prime_dur', current_jitter) # record in the data for this trial&amp;#10;#randDur=random.randint(50,100)/1000&amp;#10;#thisExp.addData('prime_dur', randDur)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="psychoJS.experiment.addData(&quot;prime_word&quot;, prime_word);&amp;#10;psychoJS.experiment.addData(&quot;prime_type&quot;, prime_type);&amp;#10;psychoJS.experiment.addData(&quot;prime_length&quot;, prime_len);&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="thisExp.addData('prime_word',prime_word)&amp;#10;thisExp.addData('prime_type', prime_type)&amp;#10;thisExp.addData('prime_length', prime_len)&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="prime">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="prime" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$current_jitter" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$prime_word" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="target">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="target" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="2.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$word" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp">
+        <Param val="'a','l'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="$corr_ans" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="2.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="consent"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_3">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="10" valType="num"/>
+      <Param name="name" updates="None" val="trials_3" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="repeater"/>
+    <LoopInitiator loopType="TrialHandler" name="consentloop">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="nRepsConsent" valType="num"/>
+      <Param name="name" updates="None" val="consentloop" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="whatsInvolved"/>
+    <Routine name="confidentiality"/>
+    <Routine name="consentForm"/>
+    <LoopTerminator name="consentloop"/>
+    <LoopTerminator name="trials_3"/>
+    <Routine name="Instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="loop">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'word': 'blahstroke', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'blah', 'unrelatedPrime': 'regretted', 'rp_p': 0.024018437617676525, 'urp_p': 0.1891672138260969, 'prime_word': 'regretted', 'prime_type': 'ur', 'prim_char_len': 9, 'prime_len': 'long'}, {'word': 'blowleer', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'blow', 'unrelatedPrime': 'rocket', 'rp_p': 0.13691391068702152, 'urp_p': 0.5348443621976925, 'prime_word': 'rocket', 'prime_type': 'ur', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'buggas', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'bug', 'unrelatedPrime': 'brick', 'rp_p': 0.06995730302872682, 'urp_p': 0.25840477149775753, 'prime_word': 'brick', 'prime_type': 'ur', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'cladfleet', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'clad', 'unrelatedPrime': 'poll', 'rp_p': 0.02873559839081219, 'urp_p': 0.9804272419098979, 'prime_word': 'poll', 'prime_type': 'ur', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'comicghost', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'comic', 'unrelatedPrime': 'planner', 'rp_p': 0.9624520101437612, 'urp_p': 0.4444616808477422, 'prime_word': 'comic', 'prime_type': 'r', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'cooltrim', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'cool', 'unrelatedPrime': 'winters', 'rp_p': 0.11014618084566741, 'urp_p': 0.47123374192154754, 'prime_word': 'winters', 'prime_type': 'ur', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'normanon', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'norm', 'unrelatedPrime': 'courier', 'rp_p': 0.513615870268624, 'urp_p': 0.6202440479471159, 'prime_word': 'courier', 'prime_type': 'ur', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'deepescort', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'deep', 'unrelatedPrime': 'unify', 'rp_p': 0.5419969142534127, 'urp_p': 0.20322881538867643, 'prime_word': 'deep', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'olivebeard', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'olive', 'unrelatedPrime': 'desperate', 'rp_p': 0.6506314571269884, 'urp_p': 0.23702968948213277, 'prime_word': 'olive', 'prime_type': 'r', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'passrage', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'pass', 'unrelatedPrime': 'diapers', 'rp_p': 0.23116275579248502, 'urp_p': 0.7914278125767359, 'prime_word': 'diapers', 'prime_type': 'ur', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'elbowsiege', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'elbow', 'unrelatedPrime': 'brings', 'rp_p': 0.5916037536558684, 'urp_p': 0.4715007117517862, 'prime_word': 'elbow', 'prime_type': 'r', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'mayorpuck', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'mayor', 'unrelatedPrime': 'expects', 'rp_p': 0.2464208851172811, 'urp_p': 0.44844142843444035, 'prime_word': 'expects', 'prime_type': 'ur', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'spreadmonk', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'spread', 'unrelatedPrime': 'foreigner', 'rp_p': 0.007293325639201265, 'urp_p': 0.2563526243282439, 'prime_word': 'foreigner', 'prime_type': 'ur', 'prim_char_len': 9, 'prime_len': 'long'}, {'word': 'ashyoga', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'ash', 'unrelatedPrime': 'forward', 'rp_p': 0.5843785418854129, 'urp_p': 0.9827907746065562, 'prime_word': 'forward', 'prime_type': 'ur', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'mildplace', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'mild', 'unrelatedPrime': 'garments', 'rp_p': 0.4401909658312171, 'urp_p': 0.6326199168685523, 'prime_word': 'garments', 'prime_type': 'ur', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'fartpike', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'fart', 'unrelatedPrime': 'gloves', 'rp_p': 0.6408976305250574, 'urp_p': 0.4361199567877967, 'prime_word': 'fart', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'goodjewel', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'good', 'unrelatedPrime': 'lurking', 'rp_p': 0.22500954301571297, 'urp_p': 0.07000046635351453, 'prime_word': 'good', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'pardonzombie', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'pardon', 'unrelatedPrime': 'heart', 'rp_p': 0.09625122859175494, 'urp_p': 0.5754699442192412, 'prime_word': 'heart', 'prime_type': 'ur', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'crashpencil', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'crash', 'unrelatedPrime': 'herald', 'rp_p': 0.40499199968808963, 'urp_p': 0.7961527908427269, 'prime_word': 'herald', 'prime_type': 'ur', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'hoststare', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'host', 'unrelatedPrime': 'steadily', 'rp_p': 0.8676863943242268, 'urp_p': 0.016629788885781482, 'prime_word': 'host', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'knightrecipe', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'knight', 'unrelatedPrime': 'braves', 'rp_p': 0.5377103530583462, 'urp_p': 0.8123461216849694, 'prime_word': 'braves', 'prime_type': 'ur', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'scumoffer', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'scum', 'unrelatedPrime': 'licenses', 'rp_p': 0.8754775214600777, 'urp_p': 0.8455003485817859, 'prime_word': 'scum', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'lonechaos', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'lone', 'unrelatedPrime': 'anthem', 'rp_p': 0.23668481044064515, 'urp_p': 0.38036430848411784, 'prime_word': 'anthem', 'prime_type': 'ur', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'middleaudio', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'middle', 'unrelatedPrime': 'suspicion', 'rp_p': 0.8344650108225116, 'urp_p': 0.08579329471038122, 'prime_word': 'middle', 'prime_type': 'r', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'peeheel', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'pee', 'unrelatedPrime': 'miss', 'rp_p': 0.36911179914520187, 'urp_p': 0.48644399326730947, 'prime_word': 'miss', 'prime_type': 'ur', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'noveldry', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'novel', 'unrelatedPrime': 'flesh', 'rp_p': 0.4474549434996865, 'urp_p': 0.45190638451668186, 'prime_word': 'flesh', 'prime_type': 'ur', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'tripcrypt', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'trip', 'unrelatedPrime': 'nudes', 'rp_p': 0.9475640234207537, 'urp_p': 0.3867904318697629, 'prime_word': 'trip', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'nungod', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'nun', 'unrelatedPrime': 'gross', 'rp_p': 0.6123804376515933, 'urp_p': 0.4459537687005911, 'prime_word': 'nun', 'prime_type': 'r', 'prim_char_len': 3, 'prime_len': 'short'}, {'word': 'peoplemercy', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'people', 'unrelatedPrime': 'obeyed', 'rp_p': 0.8823947941631212, 'urp_p': 0.7636130190926251, 'prime_word': 'people', 'prime_type': 'r', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'bottomonce', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'bottom', 'unrelatedPrime': 'seriously', 'rp_p': 0.8353973408346419, 'urp_p': 0.2756172815743937, 'prime_word': 'bottom', 'prime_type': 'r', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'betapanic', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'beta', 'unrelatedPrime': 'sided', 'rp_p': 0.1753030917796783, 'urp_p': 0.8029309320949907, 'prime_word': 'sided', 'prime_type': 'ur', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'slimglue', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'slim', 'unrelatedPrime': 'court', 'rp_p': 0.9558944046353635, 'urp_p': 0.9916839491589753, 'prime_word': 'court', 'prime_type': 'ur', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'spellmodern', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'spell', 'unrelatedPrime': 'females', 'rp_p': 0.6414847538809763, 'urp_p': 0.018577204958041493, 'prime_word': 'spell', 'prime_type': 'r', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'summerrole', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'summer', 'unrelatedPrime': 'staff', 'rp_p': 0.10359247798924409, 'urp_p': 0.10233822578726659, 'prime_word': 'summer', 'prime_type': 'r', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'thirstskim', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'thirst', 'unrelatedPrime': 'important', 'rp_p': 0.4463734043191643, 'urp_p': 0.7445335547103207, 'prime_word': 'important', 'prime_type': 'ur', 'prim_char_len': 9, 'prime_len': 'long'}, {'word': 'debttowel', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'debt', 'unrelatedPrime': 'vents', 'rp_p': 0.6609303497035206, 'urp_p': 0.4650878021883852, 'prime_word': 'debt', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'willowsenior', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'willow', 'unrelatedPrime': 'clout', 'rp_p': 0.7401406046714437, 'urp_p': 0.5175692678179279, 'prime_word': 'willow', 'prime_type': 'r', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'mantlegirl', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'mantle', 'unrelatedPrime': 'winding', 'rp_p': 0.3266669423694145, 'urp_p': 0.1193375646455862, 'prime_word': 'mantle', 'prime_type': 'r', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'womancomma', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'woman', 'unrelatedPrime': 'thrive', 'rp_p': 0.13106314628252502, 'urp_p': 0.4582626624936704, 'prime_word': 'thrive', 'prime_type': 'ur', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'wombtwice', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'womb', 'unrelatedPrime': 'trench', 'rp_p': 0.9197199024362843, 'urp_p': 0.6363418566899802, 'prime_word': 'womb', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'midstfury', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'midst', 'unrelatedPrime': 'frontier', 'rp_p': 0.22938993838237032, 'urp_p': 0.8235322471008777, 'prime_word': 'frontier', 'prime_type': 'ur', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'faithnone', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'faith', 'unrelatedPrime': 'grassy', 'rp_p': 0.9220593261919691, 'urp_p': 0.2578873728369795, 'prime_word': 'faith', 'prime_type': 'r', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'quadwit', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'quad', 'unrelatedPrime': 'coats', 'rp_p': 0.0005924093396715291, 'urp_p': 0.8530063243149962, 'prime_word': 'coats', 'prime_type': 'ur', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'kittenbeam', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'kitten', 'unrelatedPrime': 'strip', 'rp_p': 0.5609640228371068, 'urp_p': 0.4605015259132672, 'prime_word': 'kitten', 'prime_type': 'r', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'trotpride', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'trot', 'unrelatedPrime': 'waited', 'rp_p': 0.503451599656623, 'urp_p': 0.16600950279050142, 'prime_word': 'trot', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'citeyarn', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'cite', 'unrelatedPrime': 'ton', 'rp_p': 0.20500650352852967, 'urp_p': 0.29908959989322126, 'prime_word': 'ton', 'prime_type': 'ur', 'prim_char_len': 3, 'prime_len': 'short'}, {'word': 'jogcode', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'jog', 'unrelatedPrime': 'buffalo', 'rp_p': 0.19811566722593288, 'urp_p': 0.5250083563212876, 'prime_word': 'buffalo', 'prime_type': 'ur', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'gridempire', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'grid', 'unrelatedPrime': 'gothic', 'rp_p': 0.15569040252441757, 'urp_p': 0.512724696427918, 'prime_word': 'gothic', 'prime_type': 'ur', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'riflehaul', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'rifle', 'unrelatedPrime': 'mobilize', 'rp_p': 0.05057820042584604, 'urp_p': 0.9137024342870854, 'prime_word': 'mobilize', 'prime_type': 'ur', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'cleanlack', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'clean', 'unrelatedPrime': 'telephone', 'rp_p': 0.13994958917249545, 'urp_p': 0.07915218615687092, 'prime_word': 'clean', 'prime_type': 'r', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'solobuild', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'solo', 'unrelatedPrime': 'Larry', 'rp_p': 0.06596224004913387, 'urp_p': 0.10303335806968694, 'prime_word': 'Larry', 'prime_type': 'ur', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'idiotnotch', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'idiot', 'unrelatedPrime': 'seal', 'rp_p': 0.12758399647973773, 'urp_p': 0.5017542066478696, 'prime_word': 'seal', 'prime_type': 'ur', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'mitparty', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'myth', 'unrelatedPrime': 'hiding', 'rp_p': 0.963910342337025, 'urp_p': 0.7059273600949377, 'prime_word': 'myth', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'tractbrain', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'tract', 'unrelatedPrime': 'methods', 'rp_p': 0.6921352184631405, 'urp_p': 0.10485174750970883, 'prime_word': 'tract', 'prime_type': 'r', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'cabinflex', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'cabin', 'unrelatedPrime': 'preview', 'rp_p': 0.561483369718415, 'urp_p': 0.3652682988366994, 'prime_word': 'cabin', 'prime_type': 'r', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'inchsuch', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'inch', 'unrelatedPrime': 'costumes', 'rp_p': 0.7052355600447044, 'urp_p': 0.7263579074818246, 'prime_word': 'costumes', 'prime_type': 'ur', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'hatemellow', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'hate', 'unrelatedPrime': 'approve', 'rp_p': 0.4485667334732747, 'urp_p': 0.9516067736351695, 'prime_word': 'approve', 'prime_type': 'ur', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'pathblitz', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'path', 'unrelatedPrime': 'corporate', 'rp_p': 0.053074540623985755, 'urp_p': 0.871168786032131, 'prime_word': 'corporate', 'prime_type': 'ur', 'prim_char_len': 9, 'prime_len': 'long'}, {'word': 'hungryivy', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'hungry', 'unrelatedPrime': 'chord', 'rp_p': 0.1904067534338928, 'urp_p': 0.6609413524542013, 'prime_word': 'chord', 'prime_type': 'ur', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'negroblaze', 'stimType': 'compoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'negro', 'unrelatedPrime': 'barbaric', 'rp_p': 0.015054454448352406, 'urp_p': 0.6640025763873579, 'prime_word': 'barbaric', 'prime_type': 'ur', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'airspace', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'air', 'unrelatedPrime': 'book', 'rp_p': 0.85361149769991, 'urp_p': 0.5257134714625538, 'prime_word': 'air', 'prime_type': 'r', 'prim_char_len': 3, 'prime_len': 'short'}, {'word': 'backdrop', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'back', 'unrelatedPrime': 'faith', 'rp_p': 0.6565552905890281, 'urp_p': 0.13376395646094197, 'prime_word': 'back', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'checklist', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'check', 'unrelatedPrime': 'seed', 'rp_p': 0.9604369414596206, 'urp_p': 0.01029051331828379, 'prime_word': 'check', 'prime_type': 'r', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'speedway', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'speed', 'unrelatedPrime': 'cream', 'rp_p': 0.4741314723463683, 'urp_p': 0.386229742988368, 'prime_word': 'speed', 'prime_type': 'r', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'crossword', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'cross', 'unrelatedPrime': 'way', 'rp_p': 0.7400726572943146, 'urp_p': 0.728481506148245, 'prime_word': 'cross', 'prime_type': 'r', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'strawberry', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'straw', 'unrelatedPrime': 'cruel', 'rp_p': 0.9653509459459543, 'urp_p': 0.5314821910202752, 'prime_word': 'straw', 'prime_type': 'r', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'dragonfly', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'dragon', 'unrelatedPrime': 'chaos', 'rp_p': 0.25113984824876245, 'urp_p': 0.4089687863099015, 'prime_word': 'chaos', 'prime_type': 'ur', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'driveway', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'drive', 'unrelatedPrime': 'sack', 'rp_p': 0.06556735515353884, 'urp_p': 0.45549521873159315, 'prime_word': 'sack', 'prime_type': 'ur', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'firepower', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'fire', 'unrelatedPrime': 'fine', 'rp_p': 0.2672390278674117, 'urp_p': 0.16760809500289497, 'prime_word': 'fire', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'firsthand', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'first', 'unrelatedPrime': 'rice', 'rp_p': 0.9135703986462315, 'urp_p': 0.9610733505414297, 'prime_word': 'rice', 'prime_type': 'ur', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'foolproof', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'fool', 'unrelatedPrime': 'draft', 'rp_p': 0.6374393021521908, 'urp_p': 0.9914539947398959, 'prime_word': 'draft', 'prime_type': 'ur', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'homerun', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'home', 'unrelatedPrime': 'forge', 'rp_p': 0.789991426519252, 'urp_p': 0.08043235596934639, 'prime_word': 'home', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'withdraw', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'with', 'unrelatedPrime': 'hope', 'rp_p': 0.34232266275681167, 'urp_p': 0.5047730505146547, 'prime_word': 'hope', 'prime_type': 'ur', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'textbook', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'text', 'unrelatedPrime': 'lung', 'rp_p': 0.8058159647118346, 'urp_p': 0.5409693194770239, 'prime_word': 'text', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'thumbnail', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'thumb', 'unrelatedPrime': 'part', 'rp_p': 0.8520349973329429, 'urp_p': 0.16772545100875058, 'prime_word': 'thumb', 'prime_type': 'r', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'township', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'town', 'unrelatedPrime': 'slave', 'rp_p': 0.6341391945164756, 'urp_p': 0.44885523335225896, 'prime_word': 'town', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'spotlight', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'spot', 'unrelatedPrime': 'stock', 'rp_p': 0.2574416773030318, 'urp_p': 0.22698036970449853, 'prime_word': 'spot', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'workman', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'work', 'unrelatedPrime': 'tops', 'rp_p': 0.7131809459313998, 'urp_p': 0.6064669077740467, 'prime_word': 'work', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'saucepan', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'sauce', 'unrelatedPrime': 'trunk', 'rp_p': 0.18340349748585638, 'urp_p': 0.5452612785097596, 'prime_word': 'trunk', 'prime_type': 'ur', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'witchcraft', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'witch', 'unrelatedPrime': 'white', 'rp_p': 0.6644578249499548, 'urp_p': 0.7940460931122194, 'prime_word': 'white', 'prime_type': 'ur', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'outbound', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'out', 'unrelatedPrime': 'tight', 'rp_p': 0.7372376630681625, 'urp_p': 0.7558981914140671, 'prime_word': 'tight', 'prime_type': 'ur', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'motorcycle', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'motor', 'unrelatedPrime': 'speech', 'rp_p': 0.6130158660096698, 'urp_p': 0.42194480017633795, 'prime_word': 'motor', 'prime_type': 'r', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'hallmark', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'hall', 'unrelatedPrime': 'pain', 'rp_p': 0.6519322471827782, 'urp_p': 0.5073031234905305, 'prime_word': 'hall', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'homeland', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'home', 'unrelatedPrime': 'day', 'rp_p': 0.11266291051993793, 'urp_p': 0.14183812199902057, 'prime_word': 'day', 'prime_type': 'ur', 'prim_char_len': 3, 'prime_len': 'short'}, {'word': 'loophole', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'loop', 'unrelatedPrime': 'hard', 'rp_p': 0.9361880086924586, 'urp_p': 0.5102756245599128, 'prime_word': 'loop', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'godfather', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'god', 'unrelatedPrime': 'square', 'rp_p': 0.15060759562767467, 'urp_p': 0.995286199062014, 'prime_word': 'square', 'prime_type': 'ur', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'giveaway', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'give', 'unrelatedPrime': 'creep', 'rp_p': 0.4946913850884256, 'urp_p': 0.8982645501264624, 'prime_word': 'creep', 'prime_type': 'ur', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'proofread', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'proof', 'unrelatedPrime': 'seem', 'rp_p': 0.36806606270391096, 'urp_p': 0.22688156591043884, 'prime_word': 'proof', 'prime_type': 'r', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'peacock', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'pea', 'unrelatedPrime': 'green', 'rp_p': 0.9751427896179232, 'urp_p': 0.8611639256373926, 'prime_word': 'pea', 'prime_type': 'r', 'prim_char_len': 3, 'prime_len': 'short'}, {'word': 'overthrow', 'stimType': 'compoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'over', 'unrelatedPrime': 'land', 'rp_p': 0.6258153309342326, 'urp_p': 0.16197415928800363, 'prime_word': 'over', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'hingle', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'hingle', 'unrelatedPrime': 'batting', 'rp_p': 0.595487180483043, 'urp_p': 0.5122361243867888, 'prime_word': 'hingle', 'prime_type': 'r', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'chillet', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'chillet', 'unrelatedPrime': 'bootleg', 'rp_p': 0.7893554977627659, 'urp_p': 0.008578290646401698, 'prime_word': 'chillet', 'prime_type': 'r', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'goccer', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'goccer', 'unrelatedPrime': 'cottage', 'rp_p': 0.8153813233477409, 'urp_p': 0.9099267458143688, 'prime_word': 'cottage', 'prime_type': 'ur', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'lustang', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'lustang', 'unrelatedPrime': 'deserve', 'rp_p': 0.15637709922634258, 'urp_p': 0.09920181880306211, 'prime_word': 'lustang', 'prime_type': 'r', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'docus', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'docus', 'unrelatedPrime': 'warren', 'rp_p': 0.737737396934696, 'urp_p': 0.056830446842331295, 'prime_word': 'docus', 'prime_type': 'r', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'fashday', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'fashday', 'unrelatedPrime': 'pitfall', 'rp_p': 0.9463086637002392, 'urp_p': 0.6113674005362284, 'prime_word': 'fashday', 'prime_type': 'r', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'fixatior', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'fixatior', 'unrelatedPrime': 'excellence', 'rp_p': 0.8819790493823935, 'urp_p': 0.42478324018875124, 'prime_word': 'fixatior', 'prime_type': 'r', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'immobality', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'immobality', 'unrelatedPrime': 'gardening', 'rp_p': 0.898655186018096, 'urp_p': 0.37969592853204437, 'prime_word': 'immobality', 'prime_type': 'r', 'prim_char_len': 10, 'prime_len': 'long'}, {'word': 'gaterfowl', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'gaterfowl', 'unrelatedPrime': 'harp', 'rp_p': 0.6593994304089854, 'urp_p': 0.7140711524123287, 'prime_word': 'harp', 'prime_type': 'ur', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'gemon', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'gemon', 'unrelatedPrime': 'local', 'rp_p': 0.4764192167460839, 'urp_p': 0.35711697641561213, 'prime_word': 'gemon', 'prime_type': 'r', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'gevoke', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'gevoke', 'unrelatedPrime': 'dreadful', 'rp_p': 0.3248239815246975, 'urp_p': 0.22170850591520375, 'prime_word': 'gevoke', 'prime_type': 'r', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'gloundrel', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'gloundrel', 'unrelatedPrime': 'jumps', 'rp_p': 0.366703213892128, 'urp_p': 0.7926837216329927, 'prime_word': 'jumps', 'prime_type': 'ur', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'gortunes', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'gortunes', 'unrelatedPrime': 'school', 'rp_p': 0.469985347057986, 'urp_p': 0.8930170764969771, 'prime_word': 'school', 'prime_type': 'ur', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'bithstands', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'bithstands', 'unrelatedPrime': 'greedy', 'rp_p': 0.23994439608233076, 'urp_p': 0.7696788801772512, 'prime_word': 'greedy', 'prime_type': 'ur', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'horklift', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'horklift', 'unrelatedPrime': 'delicate', 'rp_p': 0.9976440794329631, 'urp_p': 0.6061588809100095, 'prime_word': 'horklift', 'prime_type': 'r', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'poonybin', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'poonybin', 'unrelatedPrime': 'horny', 'rp_p': 0.4906400329495193, 'urp_p': 0.9771244557852458, 'prime_word': 'horny', 'prime_type': 'ur', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'implicalion', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'implicalion', 'unrelatedPrime': 'wonder', 'rp_p': 0.8500346831171656, 'urp_p': 0.6346486382724443, 'prime_word': 'implicalion', 'prime_type': 'r', 'prim_char_len': 11, 'prime_len': 'long'}, {'word': 'imtricacy', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'imtricacy', 'unrelatedPrime': 'convict', 'rp_p': 0.5522268006176453, 'urp_p': 0.24815070808388517, 'prime_word': 'imtricacy', 'prime_type': 'r', 'prim_char_len': 9, 'prime_len': 'long'}, {'word': 'iotosphere', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'iotosphere', 'unrelatedPrime': 'nominate', 'rp_p': 0.6445160276916084, 'urp_p': 0.9900805787539055, 'prime_word': 'nominate', 'prime_type': 'ur', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'brile', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'brile', 'unrelatedPrime': 'leans', 'rp_p': 0.7602380096325027, 'urp_p': 0.681959871178862, 'prime_word': 'brile', 'prime_type': 'r', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'lunctuated', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'lunctuated', 'unrelatedPrime': 'light', 'rp_p': 0.4883528566642369, 'urp_p': 0.29193835842248683, 'prime_word': 'lunctuated', 'prime_type': 'r', 'prim_char_len': 10, 'prime_len': 'long'}, {'word': 'luave', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'luave', 'unrelatedPrime': 'yankee', 'rp_p': 0.13450974836602814, 'urp_p': 0.8764109847992807, 'prime_word': 'yankee', 'prime_type': 'ur', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'linesmun', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'linesmun', 'unrelatedPrime': 'maiden', 'rp_p': 0.7689675669879555, 'urp_p': 0.9410726190572966, 'prime_word': 'maiden', 'prime_type': 'ur', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'marned', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'marned', 'unrelatedPrime': 'western', 'rp_p': 0.3401661815606386, 'urp_p': 0.08920843320058913, 'prime_word': 'marned', 'prime_type': 'r', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'meality', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'meality', 'unrelatedPrime': 'lone', 'rp_p': 0.3865713772931264, 'urp_p': 0.3420096133133841, 'prime_word': 'meality', 'prime_type': 'r', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'boolproof', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'boolproof', 'unrelatedPrime': 'mill', 'rp_p': 0.8023049609581163, 'urp_p': 0.7220698508901796, 'prime_word': 'boolproof', 'prime_type': 'r', 'prim_char_len': 9, 'prime_len': 'long'}, {'word': 'letrospect', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'letrospect', 'unrelatedPrime': 'motel', 'rp_p': 0.4144827281878042, 'urp_p': 0.8985631184196583, 'prime_word': 'motel', 'prime_type': 'ur', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'nages', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'nages', 'unrelatedPrime': 'promptly', 'rp_p': 0.44864821536391186, 'urp_p': 0.8332763698101784, 'prime_word': 'promptly', 'prime_type': 'ur', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'nicaraguin', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'nicaraguin', 'unrelatedPrime': 'animal', 'rp_p': 0.1715584728816265, 'urp_p': 0.8193717967291233, 'prime_word': 'animal', 'prime_type': 'ur', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'noreskin', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'noreskin', 'unrelatedPrime': 'concord', 'rp_p': 0.43769452170927603, 'urp_p': 0.7134947393122635, 'prime_word': 'concord', 'prime_type': 'ur', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'ognament', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'ognament', 'unrelatedPrime': 'rammed', 'rp_p': 0.9198404312309444, 'urp_p': 0.15692974716774788, 'prime_word': 'ognament', 'prime_type': 'r', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'olener', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'olener', 'unrelatedPrime': 'drawing', 'rp_p': 0.16508986777164958, 'urp_p': 0.029199108589558098, 'prime_word': 'olener', 'prime_type': 'r', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'oltracize', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'oltracize', 'unrelatedPrime': 'succeed', 'rp_p': 0.5769488456283292, 'urp_p': 0.732218786073795, 'prime_word': 'succeed', 'prime_type': 'ur', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'orjectives', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'orjectives', 'unrelatedPrime': 'yanks', 'rp_p': 0.9612877474489182, 'urp_p': 0.14364751065957937, 'prime_word': 'orjectives', 'prime_type': 'r', 'prim_char_len': 10, 'prime_len': 'long'}, {'word': 'draker', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'draker', 'unrelatedPrime': 'oversight', 'rp_p': 0.34842430856482, 'urp_p': 0.010276681642057972, 'prime_word': 'draker', 'prime_type': 'r', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'schoolhoose', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'schoolhoose', 'unrelatedPrime': 'parasite', 'rp_p': 0.35659386060884257, 'urp_p': 0.29238989704934704, 'prime_word': 'schoolhoose', 'prime_type': 'r', 'prim_char_len': 11, 'prime_len': 'long'}, {'word': 'parloy', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'parloy', 'unrelatedPrime': 'session', 'rp_p': 0.9494338043326319, 'urp_p': 0.6846823770785666, 'prime_word': 'parloy', 'prime_type': 'r', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'pertuin', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'pertuin', 'unrelatedPrime': 'nettle', 'rp_p': 0.3257659231775136, 'urp_p': 0.7993831712316047, 'prime_word': 'nettle', 'prime_type': 'ur', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'matissa', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'matissa', 'unrelatedPrime': 'pill', 'rp_p': 0.774329582008536, 'urp_p': 0.5526626507601784, 'prime_word': 'matissa', 'prime_type': 'r', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'plick', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'plick', 'unrelatedPrime': 'putting', 'rp_p': 0.2135041716646896, 'urp_p': 0.6800751748104236, 'prime_word': 'putting', 'prime_type': 'ur', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'fragmint', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'fragmint', 'unrelatedPrime': 'plight', 'rp_p': 0.024147169596003937, 'urp_p': 0.7793963489042447, 'prime_word': 'plight', 'prime_type': 'ur', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'jackots', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'jackots', 'unrelatedPrime': 'plumbing', 'rp_p': 0.32775459133598783, 'urp_p': 0.7964598352501783, 'prime_word': 'plumbing', 'prime_type': 'ur', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'brinsuit', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'brinsuit', 'unrelatedPrime': 'rat', 'rp_p': 0.42971358619240896, 'urp_p': 0.8201027364357844, 'prime_word': 'rat', 'prime_type': 'ur', 'prim_char_len': 3, 'prime_len': 'short'}, {'word': 'reafformed', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'reafformed', 'unrelatedPrime': 'sophomore', 'rp_p': 0.5932607863352494, 'urp_p': 0.3138310335552026, 'prime_word': 'reafformed', 'prime_type': 'r', 'prim_char_len': 10, 'prime_len': 'long'}, {'word': 'residenty', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'residenty', 'unrelatedPrime': 'venture', 'rp_p': 0.4558375228106659, 'urp_p': 0.5140211583113148, 'prime_word': 'venture', 'prime_type': 'ur', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'resoorceful', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'resoorceful', 'unrelatedPrime': 'grass', 'rp_p': 0.5559213082942173, 'urp_p': 0.7393739308865184, 'prime_word': 'grass', 'prime_type': 'ur', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'rewrittem', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'rewrittem', 'unrelatedPrime': 'creatures', 'rp_p': 0.5639339123220525, 'urp_p': 0.5667113911765435, 'prime_word': 'creatures', 'prime_type': 'ur', 'prim_char_len': 9, 'prime_len': 'long'}, {'word': 'rivalud', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'rivalud', 'unrelatedPrime': 'sandals', 'rp_p': 0.26667310743236894, 'urp_p': 0.6282667683068761, 'prime_word': 'sandals', 'prime_type': 'ur', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'sallflower', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'sallflower', 'unrelatedPrime': 'catcher', 'rp_p': 0.9255279273526253, 'urp_p': 0.16540225872788605, 'prime_word': 'sallflower', 'prime_type': 'r', 'prim_char_len': 10, 'prime_len': 'long'}, {'word': 'irriteracy', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'irriteracy', 'unrelatedPrime': 'sandwich', 'rp_p': 0.09180139270812715, 'urp_p': 0.8842748622739707, 'prime_word': 'sandwich', 'prime_type': 'ur', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'sark', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'sark', 'unrelatedPrime': 'backyard', 'rp_p': 0.7235182319898291, 'urp_p': 0.2926305408718449, 'prime_word': 'sark', 'prime_type': 'r', 'prim_char_len': 4, 'prime_len': 'short'}, {'word': 'scenils', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'scenils', 'unrelatedPrime': 'polish', 'rp_p': 0.03485708732220283, 'urp_p': 0.8429490687974188, 'prime_word': 'polish', 'prime_type': 'ur', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'tailpioce', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'tailpioce', 'unrelatedPrime': 'dropping', 'rp_p': 0.12960463312402148, 'urp_p': 0.6328690489037512, 'prime_word': 'dropping', 'prime_type': 'ur', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'narewell', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'narewell', 'unrelatedPrime': 'tapestry', 'rp_p': 0.4327968641287814, 'urp_p': 0.6628687655892174, 'prime_word': 'tapestry', 'prime_type': 'ur', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'telcomes', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'telcomes', 'unrelatedPrime': 'ditto', 'rp_p': 0.5763579930664138, 'urp_p': 0.7396148279286016, 'prime_word': 'ditto', 'prime_type': 'ur', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': &quot;therakist's&quot;, 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': &quot;therakist's&quot;, 'unrelatedPrime': 'jeweled', 'rp_p': 0.04723699938282777, 'urp_p': 0.5325482091019261, 'prime_word': 'jeweled', 'prime_type': 'ur', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'truinted', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'truinted', 'unrelatedPrime': 'palms', 'rp_p': 0.2523568072658031, 'urp_p': 0.15605871720233977, 'prime_word': 'truinted', 'prime_type': 'r', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'vinked', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'vinked', 'unrelatedPrime': 'inform', 'rp_p': 0.7901148521665116, 'urp_p': 0.7088231517555993, 'prime_word': 'vinked', 'prime_type': 'r', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'bosin', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'bosin', 'unrelatedPrime': 'welding', 'rp_p': 0.5246411089386922, 'urp_p': 0.3792735814621798, 'prime_word': 'bosin', 'prime_type': 'r', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'whiketead', 'stimType': 'nonCompoundNonWord', 'corr_ans': 'l', 'relatedPrime': 'whiketead', 'unrelatedPrime': 'colony', 'rp_p': 0.8022613009271622, 'urp_p': 0.1778633818133556, 'prime_word': 'whiketead', 'prime_type': 'r', 'prim_char_len': 9, 'prime_len': 'long'}, {'word': 'moisture', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'moisture', 'unrelatedPrime': 'accounted', 'rp_p': 0.9655037551155834, 'urp_p': 0.6300483618836332, 'prime_word': 'moisture', 'prime_type': 'r', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'appliance', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'appliance', 'unrelatedPrime': 'cattle', 'rp_p': 0.36385027584084917, 'urp_p': 0.7480161765329163, 'prime_word': 'cattle', 'prime_type': 'ur', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'chronic', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'chronic', 'unrelatedPrime': 'runner', 'rp_p': 0.528477733080766, 'urp_p': 0.22925051376838346, 'prime_word': 'chronic', 'prime_type': 'r', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'currency', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'currency', 'unrelatedPrime': 'sexist', 'rp_p': 0.736953981484482, 'urp_p': 0.4055980620686074, 'prime_word': 'currency', 'prime_type': 'r', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'discourse', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'discourse', 'unrelatedPrime': 'candy', 'rp_p': 0.17040164963353088, 'urp_p': 0.0973083443467061, 'prime_word': 'discourse', 'prime_type': 'r', 'prim_char_len': 9, 'prime_len': 'long'}, {'word': 'rewards', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'rewards', 'unrelatedPrime': 'drove', 'rp_p': 0.8350575955372035, 'urp_p': 0.5078334596940013, 'prime_word': 'rewards', 'prime_type': 'r', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'colossal', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'colossal', 'unrelatedPrime': 'featuring', 'rp_p': 0.014708812990305908, 'urp_p': 0.07681973982336432, 'prime_word': 'featuring', 'prime_type': 'ur', 'prim_char_len': 9, 'prime_len': 'long'}, {'word': 'friend', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'friend', 'unrelatedPrime': 'selecting', 'rp_p': 0.04082271483080502, 'urp_p': 0.5386536291271367, 'prime_word': 'selecting', 'prime_type': 'ur', 'prim_char_len': 9, 'prime_len': 'long'}, {'word': 'sunset', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'sunset', 'unrelatedPrime': 'inert', 'rp_p': 0.6666684956159403, 'urp_p': 0.5841067683643751, 'prime_word': 'sunset', 'prime_type': 'r', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'manner', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'manner', 'unrelatedPrime': 'ducking', 'rp_p': 0.40741580924577747, 'urp_p': 0.9244161533420661, 'prime_word': 'ducking', 'prime_type': 'ur', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'grave', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'grave', 'unrelatedPrime': 'narrative', 'rp_p': 0.9824092685049044, 'urp_p': 0.22642112347380217, 'prime_word': 'grave', 'prime_type': 'r', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'negotiable', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'negotiable', 'unrelatedPrime': 'lunar', 'rp_p': 0.6033081379729512, 'urp_p': 0.29175571923453647, 'prime_word': 'negotiable', 'prime_type': 'r', 'prim_char_len': 10, 'prime_len': 'long'}, {'word': 'galaxies', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'galaxies', 'unrelatedPrime': 'nickle', 'rp_p': 0.4272233075077819, 'urp_p': 0.10035234406842841, 'prime_word': 'galaxies', 'prime_type': 'r', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'police', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'police', 'unrelatedPrime': 'abolish', 'rp_p': 0.7955703953230733, 'urp_p': 0.41016664874044784, 'prime_word': 'police', 'prime_type': 'r', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'accuses', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'accuses', 'unrelatedPrime': 'powerhouse', 'rp_p': 0.5030641566311225, 'urp_p': 0.6522094260866648, 'prime_word': 'powerhouse', 'prime_type': 'ur', 'prim_char_len': 10, 'prime_len': 'long'}, {'word': 'uncommon', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'uncommon', 'unrelatedPrime': 'proverbs', 'rp_p': 0.9679865209046303, 'urp_p': 0.600575901625176, 'prime_word': 'uncommon', 'prime_type': 'r', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'velocity', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'velocity', 'unrelatedPrime': 'radios', 'rp_p': 0.7996794570833219, 'urp_p': 0.1482407467035386, 'prime_word': 'velocity', 'prime_type': 'r', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'sensual', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'sensual', 'unrelatedPrime': 'trophy', 'rp_p': 0.7915562104731009, 'urp_p': 0.20319695988282016, 'prime_word': 'sensual', 'prime_type': 'r', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'vastly', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'vastly', 'unrelatedPrime': 'spittle', 'rp_p': 0.16906580707918284, 'urp_p': 0.7231707176489559, 'prime_word': 'spittle', 'prime_type': 'ur', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'tourism', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'tourism', 'unrelatedPrime': 'navigate', 'rp_p': 0.2884160166296408, 'urp_p': 0.656319785023489, 'prime_word': 'navigate', 'prime_type': 'ur', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'stadium', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'stadium', 'unrelatedPrime': 'tonight', 'rp_p': 0.6400302669125625, 'urp_p': 0.07536574506773497, 'prime_word': 'stadium', 'prime_type': 'r', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'harm', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'harm', 'unrelatedPrime': 'bridges', 'rp_p': 0.1257562557085593, 'urp_p': 0.8287865144877927, 'prime_word': 'bridges', 'prime_type': 'ur', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'expands', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'expands', 'unrelatedPrime': 'volcano', 'rp_p': 0.621251778967125, 'urp_p': 0.20610877677474182, 'prime_word': 'expands', 'prime_type': 'r', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'portfolio', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'portfolio', 'unrelatedPrime': 'pins', 'rp_p': 0.6101304207497174, 'urp_p': 0.5585731342383965, 'prime_word': 'portfolio', 'prime_type': 'r', 'prim_char_len': 9, 'prime_len': 'long'}, {'word': 'reject', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'reject', 'unrelatedPrime': 'groin', 'rp_p': 0.6665439844663265, 'urp_p': 0.4314818628585583, 'prime_word': 'reject', 'prime_type': 'r', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'magazine', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'magazine', 'unrelatedPrime': 'diving', 'rp_p': 0.25900228575405937, 'urp_p': 0.5151481908051553, 'prime_word': 'diving', 'prime_type': 'ur', 'prim_char_len': 6, 'prime_len': 'long'}, {'word': 'habitat', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'habitat', 'unrelatedPrime': 'checks', 'rp_p': 0.9457404875013508, 'urp_p': 0.5528809515273337, 'prime_word': 'habitat', 'prime_type': 'r', 'prim_char_len': 7, 'prime_len': 'long'}, {'word': 'mobility', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'mobility', 'unrelatedPrime': 'poultry', 'rp_p': 0.7053431080520878, 'urp_p': 0.1705309832734867, 'prime_word': 'mobility', 'prime_type': 'r', 'prim_char_len': 8, 'prime_len': 'long'}, {'word': 'selfish', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'selfish', 'unrelatedPrime': 'flats', 'rp_p': 0.6242653592518594, 'urp_p': 0.9389376364854629, 'prime_word': 'flats', 'prime_type': 'ur', 'prim_char_len': 5, 'prime_len': 'short'}, {'word': 'offensive', 'stimType': 'nonCompoundNoOverlap', 'corr_ans': 'a', 'relatedPrime': 'offensive', 'unrelatedPrime': 'plausible', 'rp_p': 0.7129405254048856, 'urp_p': 0.595308807865532, 'prime_word': 'offensive', 'prime_type': 'r', 'prim_char_len': 9, 'prime_len': 'long'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="stim.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="loop" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="loop"/>
+    <Routine name="End"/>
+  </Flow>
+</PsychoPy2experiment>
